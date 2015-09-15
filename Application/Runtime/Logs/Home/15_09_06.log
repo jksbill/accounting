@@ -1,0 +1,1736 @@
+[ 2015-09-06T07:01:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:01:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:01:50+08:00 ] 127.0.0.1 /login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2015-09-06T07:01:53+08:00 ] 127.0.0.1 /login/dologin?username=bill&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.081004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'bill' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:01:53+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.040003s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:04:47+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:05:04+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:06:17+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:11:10+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:11:41+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:11:48+08:00 ] 127.0.0.1 /index/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 0 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:11:50+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:12:15+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:12:20+08:00 ] 127.0.0.1 /index/delete/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 12 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `account` WHERE `id` = 12 [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:12:20+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:12:27+08:00 ] 127.0.0.1 /index/delete/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 10 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `account` WHERE `id` = 10 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:12:27+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:13:33+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-09-06T07:13:36+08:00 ] 127.0.0.1 /index/delete/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 8 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `account` WHERE `id` = 8 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:13:36+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:13:53+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:13:55+08:00 ] 127.0.0.1 /index/delete/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 9 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `account` WHERE `id` = 9 [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:13:55+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:14:51+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:15:12+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:15:18+08:00 ] 127.0.0.1 /index/delete/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 11 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `account` WHERE `id` = 11 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:15:18+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:21:25+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:22:29+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:22:47+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-06T07:23:21+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:25:01+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:25:03+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:25:34+08:00 ] 127.0.0.1 /?tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:25:55+08:00 ] 127.0.0.1 /?tap=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:26:07+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:27:11+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:27:29+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:28:04+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:29:11+08:00 ] 127.0.0.1 /?tab=finance&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:32:00+08:00 ] 127.0.0.1 /?tab=finance&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:32:11+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:33:04+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:34:23+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-06T07:34:49+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:34:59+08:00 ] 127.0.0.1 /?tab=check&tip=%E5%88%A0%E9%99%A4%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:35:11+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `account` WHERE `title` = '2015-09-06记账汇�\�' LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `account` (`title`,`money`,`subscript`,`uid`,`create_time`) VALUES ('2015-09-06记账汇�\�',12,'32',1,'2015-09-06 07:35:11') [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:35:11+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:35:31+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:35:52+08:00 ] 127.0.0.1 /?tab=account&tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant account - assumed 'account' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:36:19+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:36:45+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:37:29+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 142 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-09-06T07:39:09+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:39:12+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-09-06T07:40:12+08:00 ] 127.0.0.1 /?tip=%E4%BF%9D%E5%AD%98%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:40:17+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 141 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:43:48+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:44:17+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:44:44+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:45:00+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:45:10+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:45:20+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:46:30+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:49:31+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-06T07:49:34+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: UPDATE `account` SET `title`='2015-09-06记账汇�\�							          	',`money`=120,`subscript`='32',`uid`=1,`create_time`='2015-09-06 07:49:34' WHERE `id` = 13 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:49:34+08:00 ] 127.0.0.1 /?id=13?tip=/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:50:07+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.008001s ]
+SQL: UPDATE `account` SET `title`='2015-09-06记账汇�\�							          								          	',`money`=120,`subscript`='ceshi',`uid`=1,`create_time`='2015-09-06 07:50:07' WHERE `id` = 13 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:50:08+08:00 ] 127.0.0.1 /?id=13?tip=/?tip=%E4%BF%AE%E6%94%B9%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:50:42+08:00 ] 127.0.0.1 /?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:50:45+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.008000s ]
+SQL: UPDATE `account` SET `title`='2015-09-06记账汇�\�							          								          								          	',`money`=120,`subscript`='ceshidd',`uid`=1,`create_time`='2015-09-06 07:50:45' WHERE `id` = 13 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:50:45+08:00 ] 127.0.0.1 /?id=13?tip=%E4%BF%AE%E6%94%B9%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:51:40+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.008000s ]
+SQL: UPDATE `account` SET `title`='2015-09-06记账汇�\�							          								          								          								          	',`money`=120,`subscript`='ceshidd',`uid`=1,`create_time`='2015-09-06 07:51:40' WHERE `id` = 13 [ RunTime:0.000000s ]
+
+[ 2015-09-06T07:51:55+08:00 ] 127.0.0.1 /index/add_account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007000s ]
+SQL: UPDATE `account` SET `title`='2015-09-06记账汇�\�							          								          								          								          	',`money`=120,`subscript`='ceshidd',`uid`=1,`create_time`='2015-09-06 07:51:55' WHERE `id` = 13 [ RunTime:0.001000s ]
+
+[ 2015-09-06T07:51:55+08:00 ] 127.0.0.1 /?id=13?tip=%E4%BF%AE%E6%94%B9%E6%88%90%E5%8A%9F?tip=%E4%BF%AE%E6%94%B9%E6%88%90%E5%8A%9F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `account` WHERE `id` = 13 AND `uid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `account` WHERE `uid` = 1  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: tip E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Use of undefined constant check - assumed 'check' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined index: tab E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Use of undefined constant finance - assumed 'finance' E:\phpfind\phpfind\WWW\accounting\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
